@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    height: 100%;
+}
+
+body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gugi', cursive, 'Open Sans', sans-serif;
+}
+
+#map {
+    width: 50%;
+    height: 50%;
+    border-style: hidden solid solid hidden;
+    border-radius: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#map2 {
+    width: 50%;
+    height: 50%;
+    border-style: hidden solid hidden hidden;
+    border-radius: 1px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#map3 {
+    width: 50%;
+    height: 50%;
+    border-style: hidden hidden solid hidden;
+    border-radius: 1px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#map4 {
+    width: 50%;
+    height: 50%;
+    border-style: hidden;
+    border-radius: 1px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.legend13 {
+    line-height: 22px;
+    width: 150px;
+    color: #000000;
+    font-family: 'Yanone Kaffeesatz', 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+}
+
+.legend24 {
+    line-height: 22px;
+    width: 150px;
+    color: #000000;
+    font-family: 'Yanone Kaffeesatz', 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+}
+
+.legend i {
+    width: 20px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+}
+
+.legend img {
+    width: 16px;
+    height: 22px;
+    margin-right: 3px;
+    float: left;
+}
+
+.legend p {
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0;
+}
+
+#credits p {
+    margin-top: 0px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.leaflet-tooltip.feature-label {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Gugi', cursive, 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 4px #800080;
+    color: rgb(255, 255, 255)
+}
+
+.leaflet-popup-content {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Gugi', cursive, 'Open Sans', sans-serif;
+    text-shadow: 0px 0px 3px #ffffff;
+    color: rgb(0, 0, 0)
+}
+
+.leaflet-popup-content-wrapper {
+    background: rgba(255,255,255,1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: transparent;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Gugi', cursive, 'Open Sans', sans-serif;
+    text-shadow: 0px 0px 3px #ffffff;
+    color: rgb(0, 0, 0)
+}
+
+.leaflet-container {
+    background: rgba(255,255,255,1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border: transparent;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Gugi', cursive, 'Open Sans', sans-serif;
+    text-shadow: 0px 0px 3px #ffffff;
+    color: rgb(0, 0, 0)
+}
+
+#credits {
+    position: relative;
+    bottom: 30px;
+}

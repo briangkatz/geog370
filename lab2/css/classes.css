@@ -1,0 +1,158 @@
+html {
+    height:100%;
+}
+body {
+    height:100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+#map {
+    width: 50%;
+    height: 50%;
+    border-style: hidden solid solid hidden;
+    border-radius: 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#map2 {
+    width: 50%;
+    height: 50%;
+    border-style: hidden solid hidden hidden;
+    border-radius: 1px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+#map3 {
+    width: 50%;
+    height: 50%;
+    border-style: hidden hidden solid hidden;
+    border-radius: 1px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#map4 {
+    width: 50%;
+    height: 50%;
+    border-style: hidden;
+    border-radius: 1px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#credits p {
+    margin-top: 5px;
+    font-size: 12px;
+    text-align: right;
+    line-height: 16px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.legend, .legend2, .legend3, .legend4 {
+    line-height: 16px;
+    width: fit-contents;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.legend i, .legend2 i, .legend3 i, .legend4 i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.9;
+}
+
+.legend b, .legend2 b, .legend3 b, .legend4 b {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.legend img, legend2 img, legend3 img, legend4 img {
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+    float: left;
+}
+
+.legend p, .legend2 p, .legend3 p, .legend4 p {
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.update {
+    position: fixed;
+    top: 25%;
+    left: 39.04%;
+    z-index: 1000;
+    line-height: 16px;
+    width: 255px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.update2 {
+    position: fixed;
+    top: 75%;
+    left: 39.04%;
+    z-index: 1000;
+    line-height: 16px;
+    width: 255px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.update3 {
+    position: fixed;
+    top: 25%;
+    right: 8px;
+    z-index: 1000;
+    line-height: 16px;
+    width: 255px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.update4 {
+    position: fixed;
+    top: 75%;
+    right: 8px;
+    z-index: 1000;
+    line-height: 16px;
+    width: 255px;
+    color: #333333;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    padding: 6px 8px;
+    background: white;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.leaflet-container {
+    background-color: rgba(255,0,0,0.0);
+}
