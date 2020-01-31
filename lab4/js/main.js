@@ -71,7 +71,7 @@ var legend1 = L.control({position: 'topleft'});
 // set legend color scale and breaks
 legend1.onAdd = function () {
     var div = L.DomUtil.create('div', 'legend13');
-    div.innerHTML += '<b>Albers Equal Area</b>';
+    div.innerHTML += '<b>Albers Equal Area (EPSG:3085)</b>';
     return div;
 };
 legend1.addTo(mymap);
@@ -149,7 +149,7 @@ var legend2 = L.control({position: 'topleft'});
 // set legend color scale and breaks
 legend2.onAdd = function () {
     var div = L.DomUtil.create('div', 'legend24');
-    div.innerHTML += '<b>Lambert Conformal Conic</b>';
+    div.innerHTML += '<b>Lambert Conformal Conic (EPSG:2269)</b>';
     return div;
 };
 legend2.addTo(mymap2);
@@ -179,7 +179,7 @@ var mymap3 = L.map('map3', {
     minZoom: 2,
     detectRetina: true,
     maxBounds: bounds,
-    crs: L.CRS.EPSG4326
+    crs: L.CRS.EPSG4326  // set projection to Web Mercator
 });
 
 L.control.zoom({position: "bottomright"}).addTo(mymap3);
@@ -194,7 +194,7 @@ var legend3 = L.control({position: 'topleft'});
 // set legend color scale and breaks
 legend3.onAdd = function () {
     var div = L.DomUtil.create('div', 'legend13');
-    div.innerHTML += '<b>Web Mercator</b>';
+    div.innerHTML += '<b>Web Mercator (EPSG:4326)</b>';
     return div;
 };
 legend3.addTo(mymap3);
@@ -240,7 +240,7 @@ var legend4 = L.control({position: 'topleft'});
 // set legend color scale and breaks
 legend4.onAdd = function () {
     var div = L.DomUtil.create('div', 'legend24');
-    div.innerHTML += '<b>Pseudo-Mercator</b>';
+    div.innerHTML += '<b>Pseudo-Mercator (EPSG:3857)</b>';
     return div;
 };
 legend4.addTo(mymap4);

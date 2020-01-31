@@ -52,7 +52,7 @@ body {
 
 .legend13 {
     line-height: 22px;
-    width: 150px;
+    width: 170px;
     color: #000000;
     font-family: 'Yanone Kaffeesatz', 'Open Sans', sans-serif;
     font-size: 22px;
@@ -64,11 +64,12 @@ body {
     border-radius: 5px;
     position: fixed;
     top: 20px;
+    text-align: center;
 }
 
 .legend24 {
     line-height: 22px;
-    width: 150px;
+    width: 170px;
     color: #000000;
     font-family: 'Yanone Kaffeesatz', 'Open Sans', sans-serif;
     font-size: 22px;
@@ -80,6 +81,7 @@ body {
     border-radius: 5px;
     position: fixed;
     bottom: 20px;
+    text-align: center;
 }
 
 .legend i {
